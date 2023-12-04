@@ -7,13 +7,7 @@ import Countdown from '@components/Countdown';
 import ExperienceBar from '@components/ExperienceBar';
 import Profile from '@components/Profile';
 
-type THome = {
-	level: number;
-	currentExperience: number;
-	challengesCompleted: number;
-}
-
-export default function Home ({ level, currentExperience, challengesCompleted }: THome) {
+export default function Home (level: number, currentExperience: number, challengesCompleted: number) {
 	return (
 		<ChallengesProvider
 			level={ level }

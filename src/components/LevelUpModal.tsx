@@ -1,6 +1,8 @@
 'use client'
 
 import { useContext } from 'react';
+import Image from 'next/image';
+
 import { ChallengesContext } from '@contexts/ChallengesContexts';
 
 export default function LevelUpModal () {
@@ -21,7 +23,12 @@ export default function LevelUpModal () {
 					className="absolute right-2 top-2 border-none bg-transparent"
 					onClick={ closeLevelUpModal }
 				>
-					<img src="/icons/close.svg" alt="Fechar Modal" />
+					<Image
+						src="/icons/close.svg"
+						alt="Fechar Modal"
+						width={ 40 }
+						height={ 40 }
+					/>
 				</button>
 			</div>
 		</div>

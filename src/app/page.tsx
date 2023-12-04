@@ -1,4 +1,5 @@
-import { ChallengesProvider } from '@contexts/ChallengesContexts';
+'use client'
+import { ChallengesContext, ChallengesProvider } from '@contexts/ChallengesContexts';
 import { CountdownProvider } from '@contexts/CountdownContext';
 
 import ChallengeBox from '@components/ChallengeBox';
@@ -6,14 +7,13 @@ import CompletedChallenges from '@components/CompletedChallenges';
 import Countdown from '@components/Countdown';
 import ExperienceBar from '@components/ExperienceBar';
 import Profile from '@components/Profile';
+import { useContext } from 'react';
 
-type THome = {
-	level: number;
-	currentExperience: number;
-	challengesCompleted: number;
-}
+export default function Home () {
+	const {
+		level, currentExperience, challengesCompleted
+	} = useContext(ChallengesContext);
 
-export default function Home ({ level, currentExperience, challengesCompleted }: THome) {
 	return (
 		<ChallengesProvider
 			level={ level }

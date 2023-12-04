@@ -1,0 +1,51 @@
+[
+	{
+		"type": "body",
+		"description": "Stretch one of your arms with the palm facing forward and pull the fingers upward for 10 seconds per hand.",
+		"amount": 80
+	}, {
+		"type": "body",
+		"description": "Stretch your arm across your chest and pull it using the other arm for 10 seconds per arm.",
+		"amount": 60
+	}, {
+		"type": "body",
+		"description": "Pull your neck to the right and to the left with the help of your hand, holding the position for a few seconds.",
+		"amount": 70
+	}, {
+		"type": "body",
+		"description": "With both hands at the back of your head, bring it down, stretching the back region.",
+		"amount": 60
+	}, {
+		"type": "body",
+		"description": "Cross your legs and bend down with hands stretched towards the floor. Repeat the movement with the other leg in front.",
+		"amount": 100
+	}, {
+		"type": "body",
+		"description": "While sitting, spread your legs and try to touch the palms of your hands to the floor, repeat 3 times for 5 seconds each.",
+		"amount": 80
+	}, {
+		"type": "body",
+		"description": "Pull your knee towards your chest and hold, switch legs after 10 seconds.",
+		"amount": 50
+	}, {
+		"type": "body",
+		"description": "Sitting, cross one leg and lean your torso forward, switch legs after 10 seconds.",
+		"amount": 80
+	}, {
+		"type": "eye",
+		"description": "While sitting, close your eyes and cover them with the palms of your hands for 2 minutes, then open them normally.",
+		"amount": 90
+	}, {
+		"type": "eye",
+		"description": "In an open environment, look as far as you can in four directions for 3 seconds, moving only your eyes. Repeat 3 times.",
+		"amount": 140
+	}, {
+		"type": "eye",
+		"description": "Using your thumbs, massage the area below the eyebrows in circular motions for 15 seconds.",
+		"amount": 70
+	}, {
+		"type": "body",
+		"description": "Standing, rotate your waist as far as you can to the left, hold for five seconds. Repeat to the right.",
+		"amount": 90
+	}
+]
